@@ -1,0 +1,22 @@
+<div class=" container">
+    <h2>Our Specialities</h2>
+    <div class="row" id="menu">
+        <div *ngFor="let menuItem of menuItems" class="col-12 col-md4 col-lg-3">
+        <div class="card">
+            <img src="{{menuItem.image}}" alt="{{menuItem.name}}">
+            <div class="card-body">
+                <div class="card-title">{{menuItem.name}}</div>
+                <div class="card-text">
+                    Chocolate Cake rolled, filled with ganache and flavored with espresso.
+                </div>
+                <div class="row">
+                    <div class="col-6 price">&euro;45</div>
+                    <div class="col-6 add-btn">
+                        <button class="btn btn-outline-primary btn-sm">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

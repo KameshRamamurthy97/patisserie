@@ -1,0 +1,16 @@
+.bg-dark {
+    background-color: rgb(255, 0, 157)!important;
+}
+
+.navbar-brand {
+    font-family: "Great Vibes";
+    font-size: 2rem;
+    margin-left: 1rem;
+    /* align-content: center;    */
+}
+
+.nav-link {
+    font-family: "Open Sans Condensed";
+    font-weight: bold;
+    font-size: 1.25rem;
+}

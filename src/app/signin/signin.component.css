@@ -1,0 +1,10 @@
+.form-group{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-control{
+    width: 20rem;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+}

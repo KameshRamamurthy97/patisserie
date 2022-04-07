@@ -1,0 +1,17 @@
+.our-story-image
+{
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+}
+.our-story-text
+{
+    color:rgb(255, 0, 157);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;   
+    font-family: "EB Garamond";
+    font-size: 1.75rem;
+    font-weight: 400;
+}
